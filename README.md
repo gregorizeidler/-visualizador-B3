@@ -467,11 +467,11 @@ graph TD
 ```mermaid
 graph TB
     subgraph "🔗 Matriz de Correlação"
-        A[PETR4] -.+0.85.-> B[BRENT]
-        A -.+0.72.-> C[PETR3]
-        D[VALE3] -.+0.65.-> E[Minério Ferro]
-        F[ITUB4] -.+0.78.-> G[BBDC4]
-        F -.+0.81.-> H[BBAS3]
+        A[PETR4] -.->|+0.85| B[BRENT]
+        A -.->|+0.72| C[PETR3]
+        D[VALE3] -.->|+0.65| E[Minério Ferro]
+        F[ITUB4] -.->|+0.78| G[BBDC4]
+        F -.->|+0.81| H[BBAS3]
     end
     
     subgraph "📊 Network Graph"
