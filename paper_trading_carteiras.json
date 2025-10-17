@@ -1,0 +1,37 @@
+{
+  "demo_user": {
+    "capital_inicial": 10000.0,
+    "saldo_disponivel": 8200.0,
+    "posicoes": {
+      "PETR4": {
+        "quantidade": 15,
+        "preco_medio": 20.0,
+        "comprado_em": "2025-10-17T12:19:45.394542"
+      },
+      "VALE3": {
+        "quantidade": 50,
+        "preco_medio": 30.0,
+        "comprado_em": "2025-10-17T12:19:52.334318"
+      }
+    },
+    "historico": [
+      {
+        "tipo": "COMPRA",
+        "ticker": "PETR4",
+        "quantidade": 15,
+        "preco": 20.0,
+        "total": 300.0,
+        "data": "2025-10-17T12:19:45.394900"
+      },
+      {
+        "tipo": "COMPRA",
+        "ticker": "VALE3",
+        "quantidade": 50,
+        "preco": 30.0,
+        "total": 1500.0,
+        "data": "2025-10-17T12:19:52.334341"
+      }
+    ],
+    "criado_em": "2025-10-17T11:49:00.161404"
+  }
+}
