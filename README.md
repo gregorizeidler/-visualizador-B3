@@ -353,44 +353,6 @@ graph LR
 | 💰 **Volume** | OBV, MFI, VWAP, AD Line | Analisa fluxo de dinheiro |
 | 🔮 **Fibonacci** | Retrações, Extensões, Camarilla | Níveis de suporte/resistência |
 
-#### **Detecção Automática de Padrões:**
-
-```mermaid
-mindmap
-  root((🔍 Padrões))
-    🕯️ Candles
-      Doji
-      Martelo
-      Engolfo Alta
-      Engolfo Baixa
-      Estrela Cadente
-    📐 Gráficos
-      Ombro-Cabeça-Ombro
-      Triângulos
-      Bandeiras
-      Cunhas
-    🎯 Suporte/Resistência
-      Níveis Automáticos
-      Pivot Points
-      Zonas de Calor
-```
-
-**Exemplo de uso:**
-```python
-# Backend detecta automaticamente
-GET /api/b3/analise/padroes/PETR4
-
-Response:
-{
-  "padroes_detectados": [
-    {"tipo": "doji", "data": "2025-10-16", "confianca": 0.87},
-    {"tipo": "martelo", "data": "2025-10-15", "confianca": 0.92}
-  ],
-  "score_tecnico": 68.5,
-  "recomendacao": "COMPRA MODERADA"
-    }
-```
-
 ---
 
 ### 🧪 **3. Paper Trading - Simulador de Investimentos**
